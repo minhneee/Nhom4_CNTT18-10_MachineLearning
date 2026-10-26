@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Bộ nhớ đệm của matplotlib
+.mpl_cache/
+
+# Bản nén cũ của dự án (không cần nộp)
+hocmay.zip
+
+# File trung gian khi biên dịch LaTeX
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.lof
+report/*.lot
+report/*.xdv
+report/*.synctex.gz
+
+# Helper scripts
+rebuild_git.py
+
