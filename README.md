@@ -17,6 +17,9 @@
 
 Phân loại đa lớp có giám sát: đầu vào là ảnh xám 8×8 chứa một chữ số viết tay, đầu ra là nhãn 0–9.
 Ứng dụng: đọc mã bưu chính, số hóa chứng từ/séc, chấm phiếu trắc nghiệm, nhập liệu biểu mẫu.
+- `handwritten_digit_recognition.ipynb`: notebook.
+- `Nhom4_DE5.pdf`: bản thảo báo cáo.
+- `requirements.txt`: thư viện cần thiết.
 
 ## 2. Dữ liệu
 
@@ -119,7 +122,7 @@ Thứ tự các lệnh trên:
 
 ## 7. Báo cáo
 
-Báo cáo [report/report.pdf](report/report.pdf) được viết bằng LaTeX ([report/report.tex](report/report.tex)) gồm đủ 6 phần bắt buộc theo hướng dẫn, đúng thứ tự:
+Báo cáo được viết gồm đủ 6 phần bắt buộc theo hướng dẫn, đúng thứ tự:
 1. Đặt vấn đề
 2. Thiết kế giải pháp
 3. Mã nguồn
@@ -129,11 +132,6 @@ Báo cáo [report/report.pdf](report/report.pdf) được viết bằng LaTeX ([
 
 Phụ lục gồm phân công và khai báo AI.
 
-Biên dịch bằng **XeLaTeX** (Overleaf: Menu → Compiler → XeLaTeX) hoặc Tectonic:
-
-```bash
-cd report && tectonic report.tex
-```
 
 ## 8. Cấu trúc thư mục
 
